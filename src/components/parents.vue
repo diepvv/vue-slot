@@ -8,12 +8,13 @@
             <a :href="link.href">{{ link.title }}</a>
             <button class="btn-bookmark" v-on="bookmarkButtonEvents">Bookmark</button>
         </div>
+        <h1 slot="header">Nu vivu header</h1>
+        <div slot="body">
+            <h5>Nu Nu body1</h5>
+            <p>Nu Nu body2</p>
+        </div>
     </ChildTag>
-    <h1 slot="header">Nu vivu header</h1>
-    <div slot="body">
-        <h5>Nu Nu body1</h5>
-        <p>Nu Nu body2</p>
-    </div>
+    
 </div>
 </template>
 
